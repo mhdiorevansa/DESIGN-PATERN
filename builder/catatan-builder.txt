@@ -1,0 +1,4 @@
+1. builder patern memisahkan cara pembuatan object dari kelas object itu sendiri.
+2. jadinya nanti builder dibuat di file berbeda dari file kelas yang ingin di build
+3. dalam pembuatan builder nama kelasnya ditambahkan builder dibelakangnya. contoh: CustomerBuilder, UserBuilder.
+4. pada file class builder, tidak pakai construct
